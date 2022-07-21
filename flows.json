@@ -680,7 +680,9 @@
         "x": 110,
         "y": 40,
         "wires": [
-            []
+            [
+                "d831e63f7e3d02f7"
+            ]
         ]
     },
     {
@@ -688,7 +690,7 @@
         "type": "tcp request",
         "z": "f6f2187d.f17ca8",
         "name": "EEE 1A - miguel ",
-        "server": "",
+        "server": "gprs.absltda.com.br",
         "port": "6256",
         "out": "time",
         "ret": "string",
