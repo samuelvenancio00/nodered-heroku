@@ -37,6 +37,11 @@
         "node-red-contrib-actionflows":"latest",
         "node-red-contrib-mongodb4":"latest",
         "node-red-contrib-mongoql":"latest",
+        "node-red-contrib-calc": "~1.0.5",
+        "node-red-contrib-telegrambot": "~12.0.0",
+        "node-red-contrib-ui-digital-display": "~1.0.3",
+        "node-red-contrib-ui-multistate-switch": "~1.2.3",
+        "node-red-contrib-ui-svg": "~2.3.1",
         "redis": "3.0.2",
         "when": "3.7.8"
     }
