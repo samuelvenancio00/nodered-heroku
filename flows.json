@@ -2153,6 +2153,64 @@
         "wires": []
     },
     {
+        "id": "0499cf9a0be72974",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "13",
+        "payloadType": "num",
+        "x": 1410,
+        "y": 620,
+        "wires": [
+            [
+                "8ca55dde0ef29ca4"
+            ]
+        ]
+    },
+    {
+        "id": "41df6e34ca33c6b7",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "FULL",
+        "payloadType": "str",
+        "x": 970,
+        "y": 1260,
+        "wires": [
+            [
+                "f7789df387a0bbbb"
+            ]
+        ]
+    },
+    {
         "id": "6c7045ff9a01ea30",
         "type": "comment",
         "z": "3107cd676cb750f8",
